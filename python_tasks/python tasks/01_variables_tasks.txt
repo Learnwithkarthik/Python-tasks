@@ -1,0 +1,60 @@
+PYTHON VARIABLES - PRACTICE TASKS
+
+Task 1: Personal Details
+Create variables for:
+- student_name
+- age
+- city
+- course
+Print all values.
+
+Task 2: Employee Details
+Create variables for:
+- employee_name
+- employee_id
+- salary
+- company
+Print the details in separate lines.
+
+Task 3: Product Details
+Create variables:
+- product_name
+- price
+- quantity
+Print them.
+
+Task 4: Reassignment
+Create:
+x = 10
+Print x.
+Then assign:
+x = 50
+Print x again.
+Observe the output.
+
+Task 5: Swap Values
+Create:
+a = 10
+b = 20
+Swap the values using a temporary variable.
+Print a and b before and after swapping.
+
+Task 6: Student Marks
+Create variables for marks in:
+- Python
+- SQL
+- Cloud
+Calculate and print total marks.
+
+Task 7: Monthly Salary
+Create:
+basic_salary = 30000
+bonus = 5000
+Calculate total_salary and print it.
+
+Task 8: Rectangle
+Create length and width variables.
+Calculate:
+- area
+- perimeter
+Print both.

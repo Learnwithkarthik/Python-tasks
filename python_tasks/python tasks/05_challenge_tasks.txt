@@ -1,0 +1,59 @@
+CHALLENGE TASKS
+Use only concepts covered so far:
+Variables, input(), arithmetic operators, type conversion, print()
+
+Challenge 1: GST Bill
+Ask for product name and price.
+Take GST percentage as input.
+Calculate:
+GST amount = price * GST / 100
+Final price = price + GST amount
+
+Challenge 2: Discount Calculator
+Ask for:
+- product price
+- discount percentage
+Calculate discount amount and final price.
+
+Challenge 3: Seconds Converter
+Ask the user for number of minutes.
+Convert minutes into seconds.
+
+Challenge 4: Days to Hours
+Ask number of days.
+Calculate total hours.
+
+Challenge 5: Salary Per Day
+Ask:
+- monthly salary
+Assume 30 days.
+Calculate salary per day.
+
+Challenge 6: Travel Cost
+Ask:
+- distance in km
+- fuel cost per km
+Calculate total travel cost.
+
+Challenge 7: Student Percentage
+Take marks in 5 subjects.
+Assume each subject is out of 100.
+Calculate total and percentage.
+
+Challenge 8: Cloud Storage Cost
+Ask:
+- storage size in GB
+- price per GB
+Calculate monthly storage cost.
+
+Challenge 9: Currency Practice
+Ask for an amount in rupees.
+Ask for a conversion rate.
+Calculate the converted value.
+(Do not fetch live exchange rates.)
+
+Challenge 10: Bill Split
+Ask:
+- total restaurant bill
+- number of people
+Calculate amount per person.

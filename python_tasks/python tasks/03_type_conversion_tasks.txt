@@ -1,0 +1,51 @@
+PYTHON TYPE CONVERSION - PRACTICE TASKS
+
+Task 1: Age
+Take age using input().
+Convert it to int.
+Print age and its type.
+
+Task 2: Addition
+Take two numbers from the user.
+Convert both to int.
+Print their sum.
+
+Task 3: Price
+Take product price as input.
+Convert it to float.
+Print the price and its type.
+
+Task 4: Quantity and Price
+Take:
+- quantity
+- price
+Convert quantity to int and price to float.
+Calculate total amount.
+
+Task 5: Integer to String
+Create:
+employee_id = 101
+Convert it to string using str().
+Print the value and type.
+
+Task 6: Float to Integer
+Create:
+price = 99.99
+Convert it to int.
+Print original and converted values.
+Observe what happens to the decimal part.
+
+Task 7: String Number
+Create:
+marks = "85"
+Convert it to int.
+Add 5 bonus marks.
+Print the final marks.
+
+Task 8: Mixed Numeric Types
+Create:
+x = 10
+y = 5.5
+Add them.
+Print the result and result type.
+Observe Python's implicit conversion.

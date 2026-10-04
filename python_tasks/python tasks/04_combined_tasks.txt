@@ -1,0 +1,75 @@
+COMBINED TASKS - VARIABLES + INPUT + TYPE CONVERSION
+
+Task 1: Student Marks Calculator
+Take student name and marks in 3 subjects.
+Convert marks to int.
+Calculate total marks.
+Print:
+- student name
+- marks
+- total
+
+Task 2: Shopping Bill
+Take:
+- product name
+- quantity
+- price per item
+Convert quantity to int and price to float.
+Calculate total bill.
+
+Task 3: Simple Salary Calculator
+Take:
+- employee name
+- basic salary
+- bonus
+Convert salary and bonus to float.
+Calculate total salary.
+Print all details.
+
+Task 4: Age After 5 Years
+Ask the user for their age.
+Convert it to int.
+Print their age after 5 years.
+
+Task 5: Rectangle Calculator
+Ask for length and width.
+Convert both to float.
+Calculate:
+- area
+- perimeter
+
+Task 6: Simple Interest
+Take:
+- principal amount
+- rate of interest
+- time
+Convert them to float.
+Calculate:
+Simple Interest = (P * R * T) / 100
+
+Task 7: Temperature
+Take temperature in Celsius.
+Convert it to float.
+Convert to Fahrenheit using:
+F = (C * 9/5) + 32
+
+Task 8: Total Course Fee
+Take:
+- course name
+- monthly fee
+- number of months
+Calculate total course fee.
+
+Task 9: Cloud VM Cost
+Take:
+- VM name
+- hourly cost
+- number of hours
+Calculate total estimated VM cost.
+
+Task 10: Food Order
+Take:
+- food item
+- quantity
+- item price
+Calculate total order value.

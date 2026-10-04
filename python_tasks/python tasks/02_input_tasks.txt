@@ -1,0 +1,45 @@
+PYTHON input() - PRACTICE TASKS
+
+Task 1: Name Greeting
+Ask the user to enter their name.
+Print:
+Hello <name>
+
+Task 2: Student Information
+Ask the user for:
+- name
+- city
+- course
+Print all the entered details.
+
+Task 3: Favorite Technology
+Ask:
+What is your favorite technology?
+Print:
+Your favorite technology is <technology>
+
+Task 4: Company Information
+Ask the user to enter:
+- employee name
+- company name
+- designation
+Print the details.
+
+Task 5: Two Values
+Take two values from the user using input().
+Print both values.
+Also print their types using type().
+
+Task 6: Full Name
+Take:
+- first name
+- last name
+Print the full name.
+
+Task 7: Cloud Details
+Ask:
+- cloud provider
+- project name
+- region
+Print:
+Project <project_name> is running in <region> on <cloud_provider>.

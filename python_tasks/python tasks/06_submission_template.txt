@@ -1,0 +1,21 @@
+STUDENT SUBMISSION TEMPLATE
+
+Student Name:
+Date:
+
+Task File:
+Task Number:
+
+1. Problem Statement:
+
+2. Python Code:
+
+3. Sample Input:
+
+4. Sample Output:
+
+5. What I Learned:
+
+6. Errors Faced (if any):
+
+7. How I Fixed Them:
