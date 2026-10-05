@@ -1,0 +1,98 @@
+LEVEL 3 — REAL-TIME MINI SCENARIOS
+
+Task 11 — Employee Access Check
+Ask:
+- Employee name
+- Department
+- Employee age
+
+Convert age to int.
+
+If department is "IT" ignoring case AND age >= 21:
+    Print "Access Allowed"
+Else:
+    Print "Access Denied"
+
+Also:
+- Name in title case
+- Department in uppercase
+
+Task 12 — Shopping Bill + Membership
+Ask:
+- Customer name
+- Membership type
+- Total bill amount
+
+Membership:
+gold
+silver
+normal
+
+Discount:
+Gold   -> 20%
+Silver -> 10%
+Normal -> 0%
+
+Calculate:
+- Original bill
+- Discount
+- Final bill
+
+Task 13 — Course Eligibility
+Ask:
+- Student name
+- Qualification
+- Percentage
+
+Convert percentage to float.
+
+If qualification is "btech" OR "degree"
+AND percentage >= 60:
+    Print "Eligible"
+Else:
+    Print "Not Eligible"
+
+Task 14 — Cloud Project Name Check
+Ask user to enter a project name.
+
+Requirements:
+- Minimum 6 characters
+- Display first 3 characters
+- Display last 3 characters
+- Convert project name to lowercase
+
+If length >= 6:
+    Print "Project name length accepted"
+Else:
+    Print "Project name too short"
+
+Task 15 — Mobile Number Masking
+Ask user to enter a 10-digit mobile number as a string.
+
+If length == 10:
+    Show only last 4 digits
+
+Example:
+Input: 9876541234
+Output: ******1234
+
+Else:
+    Print "Invalid mobile number length"
+
+Task 16 — Simple ATM Withdrawal
+Create:
+account_balance = 10000
+
+Ask:
+- Customer name
+- Withdrawal amount
+
+Convert amount to float.
+
+If withdrawal amount <= account_balance:
+    Print "Withdrawal Allowed"
+    Calculate remaining balance
+Else:
+    Print "Insufficient Balance"
+
+Print customer name in title case.

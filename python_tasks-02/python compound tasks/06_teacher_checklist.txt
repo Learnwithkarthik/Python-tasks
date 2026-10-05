@@ -1,0 +1,35 @@
+TEACHER CHECKLIST
+
+Check whether the student used:
+
+[ ] Meaningful variables
+[ ] input()
+[ ] int()/float()/str() conversion where required
+[ ] lower()
+[ ] upper()
+[ ] title()
+[ ] len()
+[ ] String indexing
+[ ] String slicing
+[ ] if
+[ ] elif
+[ ] else
+[ ] and / or where appropriate
+[ ] Correct indentation
+[ ] Readable output
+
+Suggested scoring per task:
+- Inputs and variables: 2 marks
+- Type conversion: 2 marks
+- String handling: 2 marks
+- Conditional logic: 2 marks
+- Output/readability: 2 marks
+
+Total: 10 marks
+
+Suggested classroom flow:
+Day Revision Round 1 -> Tasks 1-5
+Round 2 -> Tasks 6-10
+Round 3 -> Tasks 11-16
+Challenge -> Tasks 17-20
+Final -> Capstone

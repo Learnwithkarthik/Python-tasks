@@ -1,0 +1,69 @@
+LEVEL 1 — BASIC COMPOUND TASKS
+
+Task 1 — Name Analyzer
+Ask the user to enter their full name.
+
+Display:
+- Original name
+- Uppercase name
+- Lowercase name
+- Number of characters
+- First character
+- Last character
+
+Task 2 — Age Eligibility
+Ask:
+- Name
+- Age
+
+Convert age to int.
+
+If age >= 18:
+    Print "<name> is eligible to vote"
+Else:
+    Print "<name> is not eligible to vote"
+
+Print name in title case.
+
+Task 3 — Password Length Check
+Ask the user to enter a password.
+
+If password length is at least 8:
+    Print "Password length is valid"
+Else:
+    Print "Password is too short"
+
+Also print:
+- First character
+- Last character
+- Total length
+
+Note: This is only a beginner string exercise, not real password validation.
+
+Task 4 — Marks Result
+Ask:
+- Student name
+- Marks
+
+Convert marks to int.
+
+Conditions:
+90 or above -> Excellent
+75–89       -> Very Good
+60–74       -> Good
+40–59       -> Pass
+Below 40    -> Fail
+
+Print student name in uppercase with the result.
+
+Task 5 — Word Check
+Ask the user to enter a word.
+
+Check whether it starts with P or p.
+
+If yes:
+    Print "Word starts with P"
+Else:
+    Print "Word does not start with P"
+
+Also print the word in lowercase.

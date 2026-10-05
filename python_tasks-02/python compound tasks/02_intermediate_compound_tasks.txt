@@ -1,0 +1,93 @@
+LEVEL 2 — INTERMEDIATE COMPOUND TASKS
+
+Task 6 — Email Format Practice
+Ask the user to enter an email address.
+
+Check:
+- Whether "@" exists
+- Whether "." exists
+
+If both exist:
+    Print "Basic email format looks valid"
+Else:
+    Print "Invalid email format"
+
+Also:
+- Convert email to lowercase
+- Print first character
+- Print last character
+
+Task 7 — Username Generator
+Ask:
+- First name
+- Last name
+- Birth year
+
+Create username using:
+first 3 characters of first name
++
+first 3 characters of last name
++
+birth year
+
+Example:
+Karthikeya
+Rao
+1995
+
+Possible username:
+karrao1995
+
+Convert username to lowercase.
+
+If username length >= 8:
+    Print "Username accepted"
+Else:
+    Print "Username too short"
+
+Task 8 — Product Discount
+Ask:
+- Product name
+- Product price
+
+Convert price to float.
+
+Conditions:
+Price >= 5000 -> 20% discount
+Price >= 2000 -> 10% discount
+Otherwise     -> No discount
+
+Calculate:
+- Discount amount
+- Final price
+
+Print product name in title case.
+
+Task 9 — Student Login Check
+Create:
+stored_username = "student"
+stored_password = "python123"
+
+Ask the user for username and password.
+
+Convert username to lowercase.
+
+If username and password both match:
+    Print "Login Successful"
+Else:
+    Print "Invalid Username or Password"
+
+Task 10 — Temperature Status
+Ask:
+- City name
+- Temperature in Celsius
+
+Convert temperature to float.
+
+Conditions:
+>= 35 -> Hot
+>= 25 -> Warm
+>= 15 -> Pleasant
+Else  -> Cold
+
+Print city in title case.

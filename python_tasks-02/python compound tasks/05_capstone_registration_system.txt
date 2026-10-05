@@ -1,0 +1,51 @@
+CAPSTONE TASK — MINI STUDENT REGISTRATION SYSTEM
+
+Build a Student Registration Validator.
+
+Ask:
+1. Full name
+2. Age
+3. Email
+4. Course
+5. Percentage
+
+Requirements
+
+FULL NAME:
+- Convert to title case
+- Print first character
+- Print last character
+
+AGE:
+- Convert to int
+- Must be >= 18
+
+EMAIL:
+- Convert to lowercase
+- Must contain "@" and "."
+
+COURSE:
+- Convert to lowercase
+- Accept only:
+  python
+  devops
+  cloud
+
+PERCENTAGE:
+- Convert to float
+- Must be >= 50
+
+FINAL CONDITION:
+If all required conditions are satisfied:
+    Print "Registration Successful"
+Else:
+    Print "Registration Failed"
+
+Finally display the entered student information.
+
+Before coding, student should write:
+1. Inputs required
+2. Variables required
+3. Type conversions required
+4. String operations required
+5. Conditions required

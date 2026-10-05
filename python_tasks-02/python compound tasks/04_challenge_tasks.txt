@@ -1,0 +1,85 @@
+LEVEL 4 — CHALLENGE TASKS
+
+Task 17 — Palindrome Practice
+Ask for a word.
+
+Convert to lowercase.
+Reverse it using slicing.
+
+If original == reversed:
+    Print "Palindrome"
+Else:
+    Print "Not a Palindrome"
+
+Examples:
+madam -> Palindrome
+python -> Not a Palindrome
+
+Task 18 — Name Initials
+Ask:
+- First name
+- Middle name
+- Last name
+
+Using indexing, print initials.
+
+Example:
+Karthikeya Sai Rao
+
+Output:
+K.S.R
+
+Also print full name in title case.
+
+Task 19 — Promo Code Validator
+Create:
+valid_code = "PYTHON10"
+
+Ask:
+- Promo code
+- Product price
+
+Convert entered promo code to uppercase.
+Convert price to float.
+
+If code matches:
+    Apply 10% discount
+    Print "Promo Code Applied"
+Else:
+    Print "Invalid Promo Code"
+
+Print final price.
+
+Task 20 — Mini Student Report
+Ask:
+- Student name
+- Course
+- Python marks
+- SQL marks
+- Cloud marks
+
+Convert all marks to int.
+
+Calculate:
+- Total
+- Average
+
+Conditions:
+Average >= 80 -> Grade A
+Average >= 60 -> Grade B
+Average >= 40 -> Grade C
+Else          -> Fail
+
+Display:
+----------------------------
+STUDENT REPORT
+----------------------------
+Name:
+Course:
+Total:
+Average:
+Grade:
+----------------------------
+
+Use title() for student name.
+Use upper() for course.
