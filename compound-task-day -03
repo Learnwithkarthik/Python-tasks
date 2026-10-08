@@ -1,0 +1,40 @@
+### Task: Student Registration & Course Eligibility Checker
+
+Write a Python program to register a student for a course.
+
+The program should:
+
+1. Ask the user to enter:
+   - Student name
+   - Email address
+   - Age
+   - Course name
+
+2. Store the available courses in a list:
+   - Python
+   - DevOps
+   - Cloud
+   - AI
+
+3. Display:
+   - Student name
+   - First character of the student's name using indexing
+   - First 3 characters of the student's name using slicing
+   - Email address
+   - Last 4 characters of the email using slicing
+
+4. Check the following conditions:
+   - Student age must be 18 or above
+   - Entered course must be available in the course list
+
+5. If both conditions are satisfied, print:
+
+`Registration Successful`
+
+Otherwise, print:
+
+`Registration Failed`
+
+### Concepts to Use
+
+Variables, `input()`, type conversion, strings, list, indexing, slicing, `in` operator, logical `and`, and `if-else`.
