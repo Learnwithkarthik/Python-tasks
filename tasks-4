@@ -1,0 +1,19 @@
+Ask the student for name and marks. Based on marks, print the grade.
+
+Rule:
+
+90 or above  → A
+
+75 to 89     → B
+
+60 to 74     → C
+
+40 to 59     → D
+
+Below 40     → Fail
+
+Use a for loop to print:
+
+Thank you <student_name>
+
+three times.
