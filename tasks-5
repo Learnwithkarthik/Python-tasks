@@ -1,0 +1,26 @@
+Simple Shopping Bill
+
+Requirement: Ask the user for product name, price, and quantity.
+
+Calculate:
+
+total = price × quantity
+
+Apply discount:
+
+Total >= 5000 → 10% discount
+
+Total >= 2000 → 5% discount
+
+Otherwise     → No discount
+
+
+Then use a for loop to print the product name based on quantity.
+
+For example, if quantity is 3:
+
+Laptop
+
+Laptop
+
+Laptop
