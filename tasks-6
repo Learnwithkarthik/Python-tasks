@@ -1,0 +1,293 @@
+# Python Practice Tasks
+
+These tasks are based on the topics completed so far:
+
+- Variables
+- Data Types
+- Input
+- Conditional Statements
+- `for` Loop
+- `while` Loop
+- Functions
+- Parameters
+- Arguments
+- Default Parameters
+
+---
+
+## Task 1: Student Result Analyzer
+
+Create a Python program that asks the user to enter:
+
+- Student name
+- Student marks
+- Number of subjects
+
+Create a function:
+
+```python
+def check_result(name, marks, passing_marks=40):
+```
+
+The function should classify the student based on the following rules:
+
+```text
+Marks >= 75  → Distinction
+Marks >= 60  → First Class
+Marks >= 40  → Pass
+Marks < 40   → Fail
+```
+
+Use a `for` loop to display:
+
+```text
+Subject 1 completed
+Subject 2 completed
+Subject 3 completed
+...
+```
+
+based on the number of subjects entered by the user.
+
+Finally, display the student name and result.
+
+### Example
+
+```text
+Enter student name: Ravi
+Enter marks: 72
+Enter number of subjects: 3
+
+Subject 1 completed
+Subject 2 completed
+Subject 3 completed
+
+Ravi - First Class
+```
+
+### Concepts to Use
+
+- Variables
+- Input
+- Type conversion
+- Conditional statements
+- `for` loop
+- Function
+- Parameters
+- Default parameter
+
+---
+
+## Task 2: ATM Withdrawal Simulator
+
+Create a Python ATM withdrawal program.
+
+Start with:
+
+```python
+balance = 10000
+```
+
+Ask the user to enter a withdrawal amount.
+
+Create a function:
+
+```python
+def withdraw(balance, amount):
+```
+
+Apply the following rules:
+
+```text
+Amount <= 0       → Invalid amount
+Amount > balance  → Insufficient balance
+Otherwise         → Withdrawal successful
+```
+
+Use a `while` loop to keep asking the user for an amount until a valid withdrawal amount is entered.
+
+When the withdrawal is successful, display the remaining balance.
+
+### Example
+
+```text
+Enter withdrawal amount: 15000
+Insufficient balance
+
+Enter withdrawal amount: -500
+Invalid amount
+
+Enter withdrawal amount: 2000
+Withdrawal successful
+Remaining balance: 8000
+```
+
+### Concepts to Use
+
+- Variables
+- Integer data type
+- Input
+- Type conversion
+- Conditional statements
+- `while` loop
+- Function
+- Parameters
+
+---
+
+## Task 3: Shopping Bill Calculator
+
+Create a Python program that asks the user to enter:
+
+- Product name
+- Product price
+- Quantity
+
+Create a function:
+
+```python
+def calculate_bill(price, quantity=1):
+```
+
+Calculate:
+
+```text
+Total = Price × Quantity
+```
+
+Apply discounts using these rules:
+
+```text
+Total >= 5000  → 10% discount
+Total >= 2000  → 5% discount
+Otherwise      → No discount
+```
+
+Use a `for` loop to print the purchased product name based on the quantity.
+
+For example, if quantity is `3`:
+
+```text
+Keyboard
+Keyboard
+Keyboard
+```
+
+Finally display:
+
+- Total amount
+- Discount amount
+- Final amount
+
+### Example
+
+```text
+Enter product name: Keyboard
+Enter price: 1000
+Enter quantity: 3
+
+Keyboard
+Keyboard
+Keyboard
+
+Total Amount: 3000
+Discount: 150
+Final Amount: 2850
+```
+
+### Concepts to Use
+
+- Variables
+- String
+- Integer / Float
+- Input
+- Type conversion
+- Conditional statements
+- `for` loop
+- Function
+- Default parameter
+
+---
+
+## Task 4: Number Analyzer
+
+Create a Python program that asks the user to enter a number.
+
+Create a function:
+
+```python
+def analyze_number(number):
+```
+
+The function should check:
+
+1. Whether the number is Even or Odd
+2. Whether the number is Positive, Negative, or Zero
+
+After that:
+
+Use a `for` loop to display numbers from `1` to the entered number.
+
+Use a `while` loop to display numbers backward from the entered number to `1`.
+
+### Example
+
+If the user enters:
+
+```text
+5
+```
+
+Expected output:
+
+```text
+Number is Positive
+Number is Odd
+
+Forward:
+1
+2
+3
+4
+5
+
+Backward:
+5
+4
+3
+2
+1
+```
+
+### Concepts to Use
+
+- Variables
+- Input
+- Type conversion
+- Conditional statements
+- Modulus operator
+- `for` loop
+- `while` loop
+- Function
+- Parameters
+
+---
+
+## Submission Instructions
+
+For each task:
+
+1. Create a separate Python file.
+2. Use meaningful variable names.
+3. Add comments where required.
+4. Test the program with multiple inputs.
+5. Push the completed files to GitHub.
+
+Suggested filenames:
+
+```text
+task1_student_result.py
+task2_atm_withdrawal.py
+task3_shopping_bill.py
+task4_number_analyzer.py
+```
