@@ -1,0 +1,40 @@
+Real-world scenario: An online store needs a console-based shopping cart application. Customers can select products, specify quantities, apply discounts, and generate a bill.
+Requirements
+1. Display three products with fixed prices.
+2. Allow customers to select products and enter quantities.
+3. Prevent invalid product choices and negative or zero quantities.
+4. Use a while loop to continue shopping until Checkout.
+5. Use a for loop to display cart items and calculate totals.
+6. Apply these discounts:
+   - Below ₹1,000: 0%
+   - ₹1,000–₹4,999: 5%
+   - ₹5,000 and above: 10%
+7. Apply 18% GST after the discount.
+8. Write separate functions for adding products, calculating discounts, generating bills, and displaying customer details.
+9. Use *args to calculate the total of multiple items.
+10. Use **kwargs for customer name, city, and payment method.
+11. Demonstrate positional arguments, keyword arguments, and a global order counter.
+
+
+
+===== SHOPPING CART =====
+1. Keyboard - Rs.800
+2. Mouse    - Rs.500
+3. Monitor  - Rs.6000
+4. Checkout
+
+Enter choice: 1
+Quantity: 2
+Added 2 Keyboard(s)
+
+Enter choice: 2
+Quantity: 1
+Added 1 Mouse
+
+Enter choice: 4
+
+Subtotal: Rs.2100.00
+Discount (5%): Rs.105.00
+GST (18%): Rs.359.10
+Final Bill: Rs.2354.10
+Order Number: 1
