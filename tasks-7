@@ -1,0 +1,37 @@
+Task 2: Cloud Server Resource Monitoring System
+Intermediate
+Real-world scenario: You are a DevOps engineer responsible for monitoring cloud servers. Build a Python program that checks server CPU, memory, and disk utilization and generates alerts.
+Requirements
+1. Display options to Check Server, View Monitoring Summary, and Exit.
+2. Accept a server name and CPU, memory, and disk utilization percentages.
+3. Validate utilization inputs between 0 and 100.
+4. Implement these rules:
+Utilization	Status
+Below 60%	Healthy
+60% to below 80%	Warning
+80% and above	Critical
+5. Use a for loop to collect the three utilization values.
+6. Use a while loop to repeatedly monitor servers.
+7. Create functions for utilization checking, alert classification, and reporting.
+8. Use *args to find the highest utilization.
+9. Use **kwargs to display server metadata, such as region and environment.
+10. Track how many servers have been checked using a global counter and demonstrate positional and keyword arguments.
+
+===== CLOUD SERVER MONITOR =====
+1. Check Server
+2. View Summary
+3. Exit
+
+Enter choice: 1
+Server Name: gcp-prod-vm01
+CPU Usage: 85
+Memory Usage: 65
+Disk Usage: 40
+
+CPU: CRITICAL
+Memory: WARNING
+Disk: HEALTHY
+
+Overall Status: CRITICAL
+Highest Utilization: 85%
+Servers Checked: 1
