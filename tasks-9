@@ -1,0 +1,6 @@
+Assume a DevOps engineer needs to:
+1. Check CPU usage.
+2. Check memory usage.
+3. Decide server health.
+4. Write the result into a log file.
+5. Execute everything using one function.
