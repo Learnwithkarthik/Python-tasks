@@ -1,0 +1,71 @@
+
+import logging
+
+logging.basicConfig(
+    filename="admission.log",
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
+
+def check_eligibility(age):
+    return age >= 18
+
+
+def calculate_fee(course, fee):
+    if course == "devops":
+        discount = 20
+    elif course == "python":
+        discount = 15
+    elif course == "genai":
+        discount = 10
+    else:
+        raise ValueError("Invalid course")
+
+    discount_amount = fee * discount / 100
+    final_fee = fee - discount_amount
+
+    return discount_amount, final_fee
+
+
+def student_admission():
+    try:
+        name = input("Enter student name: ").strip()
+        age = int(input("Enter age: "))
+        course = input(
+            "Enter course (DevOps/Python/GenAI): "
+        ).strip().lower()
+        fee = float(input("Enter course fee: "))
+
+        if not name:
+            raise ValueError("Student name cannot be empty")
+
+        if age < 0 or fee <= 0:
+            raise ValueError("Invalid age or fee")
+
+        if not check_eligibility(age):
+            print("Admission rejected: Minimum age is 18")
+            logging.warning("Admission rejected for %s", name)
+            return
+
+        discount, final_fee = calculate_fee(course, fee)
+
+        print("\n----- Admission Receipt -----")
+        print("Student Name:", name)
+        print("Age:", age)
+        print("Course:", course.title())
+        print(f"Original Fee: {fee:.2f}")
+        print(f"Discount: {discount:.2f}")
+        print(f"Final Fee: {final_fee:.2f}")
+        print("Admission Status: APPROVED")
+
+        logging.info(
+            "Admission approved: %s, Course: %s, Fee: %.2f",
+            name, course, final_fee
+        )
+
+    except ValueError as error:
+        print("Error:", error)
+        logging.error("Admission input error: %s", error)
+
+
+student_admission()
