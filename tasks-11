@@ -1,0 +1,17 @@
+Student requirements
+Imagine you are a Cloud Engineer monitoring servers running in Google Cloud.
+
+Your Python application must:
+1. Accept server name, CPU usage, and memory usage.
+2. Validate CPU and memory percentages (0–100).
+3. Use functions to identify server health.
+4. Classify health based on the highest severity of CPU or memory.
+5. Handle invalid inputs using try-except.
+6. Record results in server_monitor.log.
+Monitoring rules
+CPU or memory usage	Status	Logging level
+Below 60%	HEALTHY	INFO
+60% to below 80%	WARNING	WARNING
+80% or above	CRITICAL	CRITICAL
+
+For example, if CPU = 45% and memory = 90%, the server should be classified as CRITICAL.
