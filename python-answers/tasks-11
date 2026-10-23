@@ -1,0 +1,73 @@
+
+import logging
+
+logging.basicConfig(
+    filename="server_monitor.log",
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
+
+
+def check_usage(usage):
+    if usage >= 80:
+        return "CRITICAL"
+    elif usage >= 60:
+        return "WARNING"
+    else:
+        return "HEALTHY"
+
+
+def get_server_status(cpu_status, memory_status):
+    if cpu_status == "CRITICAL" or memory_status == "CRITICAL":
+        return "CRITICAL"
+    elif cpu_status == "WARNING" or memory_status == "WARNING":
+        return "WARNING"
+    else:
+        return "HEALTHY"
+
+
+def monitor_server():
+    try:
+        server = input("Enter server name: ").strip()
+        cpu = float(input("Enter CPU usage (%): "))
+        memory = float(input("Enter Memory usage (%): "))
+
+        if not server:
+            raise ValueError("Server name cannot be empty")
+
+        if not (0 <= cpu <= 100 and 0 <= memory <= 100):
+            raise ValueError("CPU and Memory must be between 0 and 100")
+
+        cpu_status = check_usage(cpu)
+        memory_status = check_usage(memory)
+
+        overall_status = get_server_status(
+            cpu_status, memory_status
+        )
+
+        print("\n----- Server Health Report -----")
+        print("Server:", server)
+        print("CPU Usage:", cpu, "%")
+        print("Memory Usage:", memory, "%")
+        print("CPU Status:", cpu_status)
+        print("Memory Status:", memory_status)
+        print("Overall Status:", overall_status)
+
+        message = (
+            f"Server={server}, CPU={cpu}%, "
+            f"Memory={memory}%, Status={overall_status}"
+        )
+
+        if overall_status == "CRITICAL":
+            logging.critical(message)
+        elif overall_status == "WARNING":
+            logging.warning(message)
+        else:
+            logging.info(message)
+
+    except ValueError as error:
+        print("Error:", error)
+        logging.error("Invalid server input: %s", error)
+
+
+monitor_server()
