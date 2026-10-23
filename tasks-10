@@ -1,0 +1,11 @@
+Task 1: Student Admission & Fee Management System
+Student requirements
+Develop a Python application for an IT training institute.
+
+The application should:
+1. Accept student name, age, course name, and course fee.
+2. Validate that age is at least 18 and fee is greater than zero.
+3. Offer a 20% discount for the DevOps course, 15% for Python, and 10% for GenAI.
+4. Use functions to validate eligibility and calculate fees.
+5. Handle invalid numeric inputs using try-except.
+6. Record successful admissions, rejections, and errors using Python logging.
